@@ -1,0 +1,26 @@
+body {
+    background-color: #212529;
+    color: #f8f9fa;
+}
+
+.form-control,
+.form-check-input,
+.form-control-file {
+    background-color: #343a40;
+    border: 1px solid #495057;
+    color: #f8f9fa;
+}
+
+.form-control::placeholder {
+    color: #adb5bd;
+}
+
+.form-control:focus,
+.form-check-input:focus {
+    border-color: #495057;
+    box-shadow: none;
+}
+
+.form-label {
+    color: #f8f9fa;
+}

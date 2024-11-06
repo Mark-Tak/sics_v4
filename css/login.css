@@ -1,0 +1,81 @@
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            background: url("../img/background.jpg");
+        }
+
+        .form-signin {
+            width: 100%;
+            max-width: 330px;
+            padding: 15px;
+            margin: auto;
+        }
+
+        .form-signin .checkbox {
+            font-weight: 400;
+        }
+
+        .form-signin .form-floating:focus-within {
+            z-index: 2;
+        }
+
+        .form-signin input[type="email"] {
+            margin-bottom: -1px;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+
+        .form-signin input[type="password"] {
+            margin-bottom: 10px;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+        }
+
+        .form-control,
+        .form-check-input,
+        .form-control-file {
+            background-color: #c4c4c4;
+            border: 1px solid #9b9b9b;
+            color: #f8f9fa;
+        }
+
+        .form-control::placeholder {
+            color: #adb5bd;
+        }
+
+        .form-control:focus,
+        .form-check-input:focus {
+            border-color: #495057;
+            box-shadow: none;
+        }
+
+        .form-label {
+            color: #f8f9fa;
+        }
+
+        .bg-light {
+            background-color: #343a40 !important;
+            color: #f8f9fa;
+        }
+
+        .border {
+            border-color: #495057 !important;
+        }
+
+        .btn-primary {
+            background-color: #0d6efd;
+            border-color: #0d6efd;
+        }
+
+        .container-b {
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 25px;
+        }

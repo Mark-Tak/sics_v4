@@ -1,0 +1,32 @@
+body {
+    background-color: #212529;
+    color: #ffffff;
+}
+
+.fc-toolbar h2 {
+    color: #ffffff;
+}
+
+.fc-button {
+    background-color: #495057 !important;
+    border: none;
+}
+
+.fc-button:hover {
+    background-color: #6c757d !important;
+}
+
+.fc-event {
+    background-color: #17a2b8;
+    border: none;
+}
+
+.fc-day-header,
+.fc-day-number {
+    color: #ffffff;
+}
+
+.fc td,
+.fc th {
+    border-color: #495057;
+}
